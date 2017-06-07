@@ -114,6 +114,7 @@ int main ()
         {
             cout << "After "<<weeks<<" weeks:" << endl << endl;
         }
+        // we made a change. Yay!
         cout << "Plants:" << endl;
         cout << "Ferns: " << condFern (numSnail, numFern, numSoil, timeInterval) << endl;
         cout<< "Shrubs: " << condShrub (numShrub, numBeetle, numSoil, timeInterval) << endl;
